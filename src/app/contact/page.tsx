@@ -2,7 +2,7 @@ import Section from "@/components/Section";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { Mail, Linkedin, Phone } from "lucide-react";
+import { Mail, Linkedin, MessageCircle } from "lucide-react";
 
 export default function ContactPage() {
     return (
@@ -13,7 +13,7 @@ export default function ContactPage() {
                     <div className="max-w-3xl">
                         <h1 className="text-4xl md:text-5xl font-light text-primary mb-12">Contact Us</h1>
                         <p className="text-xl font-light text-foreground/80 leading-relaxed mb-16">
-                            We invite suppliers, buyers, logistics partners, and capital providers aligned with disciplined and responsible global trade to contact us.
+                            We invite suppliers, buyers, buyers, logistics partners, and capital providers aligned with disciplined and responsible global trade to contact us.
                         </p>
 
                         <div className="grid md:grid-cols-3 gap-12">
@@ -39,10 +39,10 @@ export default function ContactPage() {
 
                             <div>
                                 <h3 className="text-lg font-medium text-primary mb-4 flex items-center gap-2">
-                                    <Phone className="w-5 h-5" />
-                                    Phone
+                                    <MessageCircle className="w-5 h-5" />
+                                    WhatsApp
                                 </h3>
-                                <a href="tel:+31612492083" className="text-lg text-foreground/70 hover:text-primary transition-colors">
+                                <a href="https://wa.me/31612492083" target="_blank" rel="noopener noreferrer" className="text-lg text-foreground/70 hover:text-primary transition-colors">
                                     +31 6 1249 2083
                                 </a>
                             </div>
